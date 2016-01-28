@@ -14,6 +14,7 @@ public class Simpletest {
 		 driver = new FirefoxDriver();
 		 driver.get("http://newtours.demoaut.com/");
 		 driver.findElement(By.name("userName")).sendKeys("kranti");
+		 System.out.println("Successfully opened login page and entered username");
 	}
 
 
